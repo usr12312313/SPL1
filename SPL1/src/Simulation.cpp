@@ -8,11 +8,6 @@ Simulation::Simulation(Graph graph, vector<Agent> agents) : mGraph(graph), mAgen
 void Simulation::step()
 {
     // TODO: implement this method
-    if(shouldTerminate ==true)
-    {
-        cout << "game over";
-        return;
-    }
 }
 
 bool Simulation::shouldTerminate() const
