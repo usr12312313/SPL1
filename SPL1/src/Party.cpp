@@ -28,4 +28,6 @@ const string & Party::getName() const
 void Party::step(Simulation &s)
 {
     // TODO: implement this method
+    // if party is Waiting/Joined return
+    // if party is CollectingOffers make counter ++ and when it gets to 3 change party state to joined
 }
