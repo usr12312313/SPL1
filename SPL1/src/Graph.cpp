@@ -12,6 +12,8 @@ int Graph::getMandates(int partyId) const
 
 int Graph::getEdgeWeight(int v1, int v2) const
 {
+    if(v1<0 || v2<0)
+        return 0;
     return mEdges[v1][v2];
 }
 
