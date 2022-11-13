@@ -8,6 +8,9 @@ Simulation::Simulation(Graph graph, vector<Agent> agents) : mGraph(graph), mAgen
 void Simulation::step()
 {
     // TODO: implement this method
+    // call party step for each party
+    //call agent step for each agent in agent vectors
+    //check each coalation to see if game over (if yes make should terminate true)
 }
 
 bool Simulation::shouldTerminate() const
