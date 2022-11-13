@@ -18,4 +18,6 @@ int Agent::getPartyId() const
 void Agent::step(Simulation &sim)
 {
     // TODO: implement this method
+    // offer prefered party to join, if party is waiting change its state to collecting offers
+    //
 }
